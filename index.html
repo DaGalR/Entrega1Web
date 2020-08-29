@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
 
         <meta charset="utf-8">
@@ -8,9 +8,6 @@
         <link rel="stylesheet" href="estilos.css">
     </head>
     <body>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <header>
             <div class = "jumbotron">
                 <h1>My personal web page</h1>
@@ -19,6 +16,7 @@
         </header>
 
         <nav class="navbar navbar-expand-lg" style="background-color: #17252A;" id="navigation">
+            <!-- El boton le hace falta un icono para que sea visible -->
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,10 +32,12 @@
         </nav>
         <main>
             <section>
+                <!-- El tag <a></a> no es necesario aca ni el atributo name-->
                 <a name="Home"><h2 class="special">Welcome to Gal's Blog!</h2></a>
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
+                            <!-- Los atributos width y height los pasaria al css -->
                             <img class="rounded mx-auto d-block" src="images/bateroman.jpg" alt="Me playing drums" title="A personal picture" width="370px" height="500px"/>
 
                         </div>
@@ -45,7 +45,8 @@
                 </div>
                 <div class = "container-fluid" id="greetings">
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                            <!-- No coinciden los tags -->
                             <h2 class="special">Greetings my friend.</h4> 
                             <p>
                                 This is a small fragent gifted to my by the cyberspace to talk a little about myself and introducte me to the world. Specially because the quarintine makes it harder or impossible to make contact with
@@ -91,12 +92,14 @@
 
             </section>
             <section>
+                <!-- El tag <a></a> no es necesario aca ni el atributo name-->
                 <a name="Bio"><h2>Biographical data</h2></a>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-8" id="bio">
                             <table class="table table-bordered table-dark table-sm">
                                 <thead>
+                                    <!-- Falta el tag <tr></tr> -->
                                     <th scope="col">
                                         Information table about me
                                     </th>
@@ -131,6 +134,7 @@
              
             </section>
             <section>
+                <!-- El tag <a></a> no es necesario aca ni el atributo name-->
                 <a name="Academy"><h2>Academical Information</h2></a>
                 <div class="container">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12">
@@ -156,6 +160,7 @@
                 
             </section>
             <section>
+                <!-- El tag <a></a> no es necesario aca ni el atributo name-->
                 <a name="Interests"><h2>My personal interests</h2></a>
                 <div class="container-fluid">
                     <h3>Some of my favorite videos</h3>
@@ -165,6 +170,7 @@
                                 I like this video because of the music but also due too the drawing and animation it has. The video was made by the artist Felix Colgrave for the song  <em>Source</em> by the band Fever the Ghost.
                             </p>
                             <div class ="embed-responsive embed-responsive-16by9">
+                                <!-- Falta el atributo name para mejorar la accesibilidad -->
                                 <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/9RHFFeQ2tu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             
@@ -174,6 +180,7 @@
                                 The best drum solo according to me, is the one performed by John Henry Bonham (Bonzo) from Led Zeppelin. The solo is part of the song <em>Moby Dick</em> and this video is my favorite version of the solo. I watch this video often to learn from Bonzo's playing, who is my drummer idol.
                             </p>
                             <div class ="embed-responsive embed-responsive-16by9">
+                                <!-- Falta el atributo name para mejorar la accesibilidad -->
                                 <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/r9-42mu1D9Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
@@ -182,6 +189,7 @@
                                 This video is one of my favorites from the few made by Pink Floyd. This video was filmed for the song <em>High Hopes</em> from the album The Division Bell. The visual material used connects very accurately the lyrics with the song's music. 
                             </p>
                             <div class ="embed-responsive embed-responsive-16by9">
+                                <!-- Falta el atributo name para mejorar la accesibilidad -->
                                 <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/7jMlFXouPk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
                             </div>
                         </div>
@@ -190,6 +198,7 @@
                                 This is the music video from the song <em>Daydreamming</em> of Radiohead. I love it for its direction work. It has several visual techniques that feed the introspective, hypnotic melody of the song.
                             </p>
                             <div class ="embed-responsive embed-responsive-16by9">
+                                <!-- Falta el atributo name para mejorar la accesibilidad -->
                                 <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/TTAU7lLDZYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
@@ -201,14 +210,15 @@
                     <div class="row">
                         <div class="col-12">
                             <p>Here are some of the links I visit often</p>
+                            <!-- No es necesario ponerle una clase a un atributo que no se va a estilizar -->
                             <ul class="list-unstyled">
-                                <li class="interest">This web page is about learning to play jazz drumms: <a href="https://www.nkmdrums.com/jazz/" target="_blank" class="hyperlink">Jazz Drumming</a></li>
-                                <li class="interest">I use this site to know which stars and planets can be seen in the night sky: <a href="https://stellarium-web.org/" target="_blank" class="hyperlink">Star map</a></li>
+                                <li class="interest">This web page is about learning to play jazz drumms: <a rel="noopener noreferrer" href="https://www.nkmdrums.com/jazz/" target="_blank" class="hyperlink">Jazz Drumming</a></li>
+                                <li class="interest">I use this site to know which stars and planets can be seen in the night sky: <a rel="noopener noreferrer" href="https://stellarium-web.org/" target="_blank" class="hyperlink">Star map</a></li>
                             </ul>
                             <dl class="row">
                                 <dt class="col-sm-3">Here are my band's social media links:</dt>
                                 <dd class="col-sm-9">
-                                    <p>Instagram: <a href="https://www.instagram.com/ecosdelacumbre/" target="_blank">@ecosdelacumbre</a></p>
+                                    <p>Instagram: <a rel="noopener noreferrer" href="https://www.instagram.com/ecosdelacumbre/" target="_blank">@ecosdelacumbre</a></p>
                                     <p>Facebook: <a href="https://www.facebook.com/ecosdelacumbre">Ecos de la Cumbre</a></p>
                                 </dd>
                             </dl>
@@ -222,7 +232,9 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                             
+                            <!-- El atributo width los pasaria al css -->
                             <div class="card" style="width: 15rem;">
+                                <!-- Los atributos width y height los pasaria al css -->
                                 <img class="card-img-top" src="images/ConElPana.JPG" alt="Con mi pana Giraldo" width="200px" height="300px"/>
                                 <div class="card-body">
                                     <p class="cardtext">
@@ -232,7 +244,9 @@
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                             <!-- El atributo width los pasaria al css -->
                             <div class="card" style="width: 15rem;">
+                                <!-- Los atributos width y height los pasaria al css -->
                                 <img class="card-img-top" src="images/ElSalto.JPG" alt="Saltando de bien alto" width="200px" height="300px"/>
                                 <div class="card-body">
                                     <p class="cardtext">
@@ -242,7 +256,9 @@
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+                             <!-- El atributo width los pasaria al css -->
                             <div class="card" style="width: auto;">
+                                <!-- Los atributos width y height los pasaria al css -->
                                 <img class="card-img-top" src="images/Osorno.jpg" alt="Volcán Osorno en Chile" width="700px" height="300px"/>
                                 <div class="card-body">
                                     <p class="cardtext">
@@ -256,6 +272,7 @@
                             
             </section>
             <section>
+                <!-- El tag <a></a> no es necesario aca ni el atributo name-->
                 <a name="Projects"><h2>Some of my projects</h2></a>
                 <div class="container-fluid">
                     <div class="row">
@@ -283,7 +300,8 @@
                     <div class="row justify-content-center">
                         <div class="col-12 col-sm-12 col-md-8 col-lg-8">
                             <div class ="embed-responsive embed-responsive-16by9">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Nk00rjYOesA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <!-- Falta el atributo name para mejorar la accesibilidad y el atributo frameholder no era necesario-->
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Nk00rjYOesA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -292,6 +310,7 @@
             
             </section>
             <section>
+                <!-- El tag <a></a> no es necesario aca ni el atributo name-->
                 <a name="Contact"><h2>Contact</h2></a>
                 <div class="container-fluid">
                     <div class="row">
@@ -304,7 +323,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="mail">Your email:</laber>
+                                    <label for="mail">Your email:</label>
                                     <input type="text" class="form-control" id="email" name="email" placeholder="example@mail.com">
                                 </div>
                                 <div class="form-group">
@@ -327,5 +346,9 @@
             <p><a href="https://www.instagram.com/da_galru/">My Instagram (@da_galru)</a></p>
             
         </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
 </html>
