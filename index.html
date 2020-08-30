@@ -1,331 +1,540 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<!--Página en inglés.-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Web Page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <header>
+      <div class="jumbotron">
+        <h1>My personal web page</h1>
+      </div>
+    </header>
 
-        <meta charset="utf-8">
-        <title>My Web Page</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="estilos.css">
-    </head>
-    <body>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <header>
-            <div class = "jumbotron">
-                <h1>My personal web page</h1>
-            </div>        
-            
-        </header>
-
-        <nav class="navbar navbar-expand-lg" style="background-color: #17252A;" id="navigation">
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-
-                <a class="navbar-brand" href="#Home">Welcome to Gal's Blog!</a>
-                <a class="nav-link" href="#Bio">A little about my life</a>
-                <a class="nav-link" href="#Academy">Academic information</a>
-                <a class="nav-link" href="#Interests">Personal interests</a>
-                <a class="nav-link" href="#Projects">Some projects</a>
-                <a class="nav-link" href="#Contact">Contact</a>
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background-color: #17252a"
+      id="navigation"
+    >
+      <button
+        class="navbar-toggler custom-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#Home">Welcome to Gal's Blog!</a>
+        <a class="nav-link" href="#Bio">A little about my life</a>
+        <a class="nav-link" href="#Academy">Academic information</a>
+        <a class="nav-link" href="#Interests">Personal interests</a>
+        <a class="nav-link" href="#Projects">Some projects</a>
+        <a class="nav-link" href="#Contact">Contact</a>
+      </div>
+    </nav>
+    <main>
+      <section>
+        <a id="Home"><h2 class="special">Welcome to Gal's Blog!</h2></a>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="rounded mx-auto d-block"
+                src="images/bateroman.jpg"
+                alt="Me playing drums"
+                title="A personal picture"
+                width="370"
+                height="500"
+              />
             </div>
-        </nav>
-        <main>
-            <section>
-                <a name="Home"><h2 class="special">Welcome to Gal's Blog!</h2></a>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <img class="rounded mx-auto d-block" src="images/bateroman.jpg" alt="Me playing drums" title="A personal picture" width="370px" height="500px"/>
+          </div>
+        </div>
+        <div class="container-fluid" id="greetings">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+              <h2 class="special">Greetings my friend.</h2>
+              <p>
+                This is a small fragent gifted to my by the cyberspace to talk a
+                little about myself and introducte me to the world. Specially
+                because the quarintine makes it harder or impossible to make
+                contact with other people, so why not use Internet's pros and
+                show you all some things about me? I'll try and do my best to
+                introduce myself as briefly as I can in this web site. First of
+                all, I will say a couple small things about me. The rest you
+                will be able to see it along the webpage.
+              </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <h3>A little glance about me</h3>
+              <p>
+                I was born and lived my first 3 years of life in Arizona, USA.
+                When coming back to Colombia (my parents are colombian) I
+                studied in a Kindergarden close to my house until I made it to
+                Elementary School. That was when I began studying in Colegio
+                Colombo Americano, where I finished the rest of my school years.
+                At that school I met those who still today are my best friends.
+                At school I always liked my painting classes and that is why I
+                love drawing. I even got to participate in some drawing contests
+                from which I won a couple.
+              </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <h3>Sports</h3>
+              <p>
+                In terms of sports, I have never been part of an official team.
+                I began practicing Karate and made it up to grey belt. I left it
+                because I felt I was stuck and did not improve as fast as
+                before. Still today I like martial arts and I would like to go
+                back to Karate or maybe another martial art. Some years after
+                leaving Karate behind I started practicing tenis for a long time
+                until I sprained a finger on my left hand. Once again some years
+                passed after I left tenis until I found the next sport to
+                practice. This time it was boxing but I didn't put much effort
+                nor dedication to it because I only practiced during my
+                vacations. It was until I got hit hard during a sparring session
+                that I quit boxing.
+              </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <h3>My hobbies</h3>
+              <p>
+                I enjoy quite a lot playing videogames, listening to music and
+                practice playing on the drums. Reading is also one of my
+                hobbies. My favorite genre is Science Fiction (also for movies
+                and TV series), but I also like suspense and mistery genres. My
+                favorite book author is Isaac Asimov and I stll got plenty of
+                his books to read. I read a collection of his stories which I
+                loved. In terms of videogames, those are also a lifelong hobby.
+                My first console ever was a PlayStation 1 and then I moved to
+                Xbox consoles. My favorite game to play is Halo which is also
+                the one I play the best. I also enjoy other videogames like RPG
+                (Fable, Skyrim or Fallout), strategy games like Age of Empires
+                and many other shooter games.
+              </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <h3>Music</h3>
+              <p>
+                Talking about music, the first band I remember listening to was
+                Coldplay but soon I also discovered other bands and music
+                genres. Rock is my favorite kind of music, and I also like its
+                subgenres like progressive rock, indie rock and so on. Pink
+                Floyd and Led Zeppelin became my top listened bands from a long
+                time ago and still are unbeatable among the other groups I
+                listen to. Those other groups and genres are jazz, funk, metal,
+                world music, salsa and some folklore music from Colombia. When I
+                really began enjoying music was when I also wanted to pick up an
+                instrument and begin to play it. A few years ago I discovered my
+                love for drumming and I am still learning today, trying to
+                improve under the shadow of my drumming idol, Bonzo from Led
+                Zeppelin.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <a id="Bio"><h2>Biographical data</h2></a>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-8" id="bio">
+              <table class="table table-bordered table-dark table-sm">
+                <!--La tag de thead es redundante con el título.-->
+                <tbody>
+                  <tr>
+                    <th scope="row">Name</th>
+                    <td>Daniel</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Last name</th>
+                    <td>Galindo Ruiz</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Age</th>
+                    <td>19</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Birth date</th>
+                    <td>September 17th, 2000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">City of birth</th>
+                    <td>Scottsdale, Arizona</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <a id="Academy"><h2>Academical Information</h2></a>
+        <div class="container">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row justify-content-center">
+              <dl class="row">
+                <dt class="col-sm-3">High School</dt>
+                <dd class="col-sm-9">Colegio Colombo Americano (2017)</dd>
+                <dt class="col-sm-3">Current University</dt>
+                <dd class="col-sm-9">Universidad de los Andes</dd>
+                <dt class="col-sm-3">What am I studying?</dt>
+                <dd class="col-sm-9">
+                  <p>Computer Science (or Systems and Computer Engineering)</p>
+                  <p>Minor degree in Physics</p>
+                </dd>
+                <dt class="col-sm-3">External Courses</dt>
+                <dd class="col-sm-9">
+                  <p>
+                    Introduction to 2D game development in Unity(Universidad de
+                    los Andes)
+                  </p>
+                  <p>
+                    Front-End Web Development with React (Hong Kong University)
+                  </p>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <a id="Interests"><h2>My personal interests</h2></a>
+        <div class="container-fluid">
+          <h3>Some of my favorite videos</h3>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <!--Cambio de frameborder a usar atributos CSS.-->
+              <p>
+                I like this video because of the music but also due too the
+                drawing and animation it has. The video was made by the artist
+                Felix Colgrave for the song <em>Source</em> by the band Fever
+                the Ghost.
+              </p>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/9RHFFeQ2tu4"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <p>
+                The best drum solo according to me, is the one performed by John
+                Henry Bonham (Bonzo) from Led Zeppelin. The solo is part of the
+                song <em>Moby Dick</em> and this video is my favorite version of
+                the solo. I watch this video often to learn from Bonzo's
+                playing, who is my drummer idol.
+              </p>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/r9-42mu1D9Y"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <p>
+                This video is one of my favorites from the few made by Pink
+                Floyd. This video was filmed for the song
+                <em>High Hopes</em> from the album The Division Bell. The visual
+                material used connects very accurately the lyrics with the
+                song's music.
+              </p>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/7jMlFXouPk8"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <p>
+                This is the music video from the song <em>Daydreamming</em> of
+                Radiohead. I love it for its direction work. It has several
+                visual techniques that feed the introspective, hypnotic melody
+                of the song.
+              </p>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/TTAU7lLDZYU"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                        </div>
-                    </div>
-                </div>
-                <div class = "container-fluid" id="greetings">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h2 class="special">Greetings my friend.</h4> 
-                            <p>
-                                This is a small fragent gifted to my by the cyberspace to talk a little about myself and introducte me to the world. Specially because the quarintine makes it harder or impossible to make contact with
-                                other people, so why not use Internet's pros and show you all some things about me? I'll try and do my best to introduce myself as briefly as I can in this web site. First of all, I will say a couple
-                                small things about me. The rest you will be able to see it along the webpage.
-                            </p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <h3>A little glance about me</h4>
-                            <p>
-                                I was born and lived my first 3 years of life in Arizona, USA. When coming back to Colombia (my parents are colombian) I studied in a Kindergarden close to my house until I made it to Elementary School.
-                                That was when I began studying in Colegio Colombo Americano, where I finished the rest of my school years. At that school I met those who still today are my best friends. At school I always liked my painting
-                                classes and that is why I love drawing. I even got to participate in some drawing contests from which I won a couple.
-                            </p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <h3>Sports</h3>
-                            <p>
-                                In terms of sports, I have never been part of an official team. I began practicing Karate and made it up to grey belt. I left it because I felt I was stuck and did not improve as fast as before. Still today I like martial arts and I would like to go
-                                back to Karate or maybe another martial art. Some years after leaving Karate behind I started practicing tenis for a long time until I sprained a finger on my left hand. Once again some years passed after I left tenis until I found the next sport to 
-                                practice. This time it was boxing but I didn't put much effort nor dedication to it because I only practiced during my vacations. It was until I got hit hard during a sparring session that I quit boxing.
-                            </p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <h3>My hobbies</h3> 
-                            <p>
-                                I enjoy quite a lot playing videogames, listening to music and practice playing on the drums. Reading is also one of my hobbies. My favorite genre is Science Fiction (also for movies and TV series), but I also like suspense and mistery genres. My favorite book 
-                                author is Isaac Asimov and I stll got plenty of his books to read. I read a collection of his stories which I loved. In terms of videogames, those are also a lifelong hobby. My first console ever was a PlayStation 1 and then I moved to Xbox consoles. My favorite
-                                game to play is Halo which is also the one I play the best. I also enjoy other videogames like RPG (Fable, Skyrim or Fallout), strategy games like Age of Empires and many other shooter games.
+        <h3>Links of interest</h3>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <p>Here are some of the links I visit often</p>
+              <ul class="list-unstyled">
+                <li class="interest">
+                  This web page is about learning to play jazz drumms:
+                  <a
+                    href="https://www.nkmdrums.com/jazz/"
+                    target="_blank"
+                    class="hyperlink"
+                    >Jazz Drumming</a
+                  >
+                </li>
+                <li class="interest">
+                  I use this site to know which stars and planets can be seen in
+                  the night sky:
+                  <a
+                    href="https://stellarium-web.org/"
+                    target="_blank"
+                    class="hyperlink"
+                    >Star map</a
+                  >
+                </li>
+              </ul>
+              <dl class="row">
+                <dt class="col-sm-3">Here are my band's social media links:</dt>
+                <dd class="col-sm-9">
+                  <p>
+                    Instagram:
+                    <a
+                      href="https://www.instagram.com/ecosdelacumbre/"
+                      target="_blank"
+                      >@ecosdelacumbre</a
+                    >
+                  </p>
+                  <p>
+                    Facebook:
+                    <a href="https://www.facebook.com/ecosdelacumbre"
+                      >Ecos de la Cumbre</a
+                    >
+                  </p>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
 
-                            </p>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <h3>Music</h3>
-                            <p>
-                                Talking about music, the first band I remember listening to was Coldplay but soon I also discovered other bands and music genres. Rock is my favorite kind of music, and I also like its subgenres like progressive rock, indie rock and so on. Pink Floyd and Led
-                                Zeppelin became my top listened bands from a long time ago and still are unbeatable among the other groups I listen to. Those other groups and genres are jazz, funk, metal, world music, salsa and some folklore music from Colombia. When I really began enjoying
-                                music was when I also wanted to pick up an instrument and begin to play it. A few years ago I discovered my love for drumming and I am still learning today, trying to improve under the shadow of my drumming idol, Bonzo from Led Zeppelin.
-                            </p>
-                        </div>
-                    </div> 
-                </div>
+        <h3>Cool pictures</h3>
 
-            </section>
-            <section>
-                <a name="Bio"><h2>Biographical data</h2></a>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-8" id="bio">
-                            <table class="table table-bordered table-dark table-sm">
-                                <thead>
-                                    <th scope="col">
-                                        Information table about me
-                                    </th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Name</th>
-                                        <td>Daniel</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Last name</th>
-                                        <td>Galindo Ruiz</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Age</th>
-                                        <td>19</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Birth date</th>
-                                        <td>September 17th, 2000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">City of birth</th>
-                                        <td>Scottsdale, Arizona</td>
-                                    </tr>
-                                </tbody>
-                                
-                            </table>   
-                        </div>
-                    </div>
+        <!--Arreglo del identificador px a ser sólo numérico en anchos y largos.-->
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="card" style="width: 15rem">
+                <img
+                  class="card-img-top"
+                  src="images/ConElPana.JPG"
+                  alt="Con mi pana Giraldo"
+                  width="200"
+                  height="300"
+                />
+                <div class="card-body">
+                  <p class="cardtext">
+                    A picture with my best friend. We be lookin good doe.
+                  </p>
                 </div>
-             
-            </section>
-            <section>
-                <a name="Academy"><h2>Academical Information</h2></a>
-                <div class="container">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                        <div class="row justify-content-center">
-                            <dl class="row">
-                                <dt class="col-sm-3">High School</dt>
-                                <dd class="col-sm-9">Colegio Colombo Americano (2017)</dd>
-                                <dt class="col-sm-3">Current University</dt>
-                                <dd class="col-sm-9">Universidad de los Andes</dd>
-                                <dt class="col-sm-3">What am I studying?</dt>
-                                <dd class="col-sm-9">
-                                    <p>Computer Science (or Systems and Computer Engineering)</p>
-                                    <p>Minor degree in Physics</p>
-                                </dd>
-                                <dt class="col-sm-3">External Courses</dt>
-                                <dd class="col-sm-9">
-                                    <p>Introduction to 2D game development in Unity(Universidad de los Andes)</p>
-                                    <p>Front-End Web Development with React (Hong Kong University)</p>
-                            </dl>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="card" style="width: 15rem">
+                <img
+                  class="card-img-top"
+                  src="images/ElSalto.JPG"
+                  alt="Saltando de bien alto"
+                  width="200"
+                  height="300"
+                />
+                <div class="card-body">
+                  <p class="cardtext">
+                    Jumping from a tall cliff from Jamaica.
+                  </p>
                 </div>
-                
-            </section>
-            <section>
-                <a name="Interests"><h2>My personal interests</h2></a>
-                <div class="container-fluid">
-                    <h3>Some of my favorite videos</h3>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <p>
-                                I like this video because of the music but also due too the drawing and animation it has. The video was made by the artist Felix Colgrave for the song  <em>Source</em> by the band Fever the Ghost.
-                            </p>
-                            <div class ="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/9RHFFeQ2tu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                            
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <p>
-                                The best drum solo according to me, is the one performed by John Henry Bonham (Bonzo) from Led Zeppelin. The solo is part of the song <em>Moby Dick</em> and this video is my favorite version of the solo. I watch this video often to learn from Bonzo's playing, who is my drummer idol.
-                            </p>
-                            <div class ="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/r9-42mu1D9Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <p>
-                                This video is one of my favorites from the few made by Pink Floyd. This video was filmed for the song <em>High Hopes</em> from the album The Division Bell. The visual material used connects very accurately the lyrics with the song's music. 
-                            </p>
-                            <div class ="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/7jMlFXouPk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                            <p>
-                                This is the music video from the song <em>Daydreamming</em> of Radiohead. I love it for its direction work. It has several visual techniques that feed the introspective, hypnotic melody of the song.
-                            </p>
-                            <div class ="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/TTAU7lLDZYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+              <div class="card" style="width: auto">
+                <img
+                  class="card-img-top"
+                  src="images/Osorno.jpg"
+                  alt="Volcán Osorno en Chile"
+                  width="700"
+                  height="300"
+                />
+                <div class="card-body">
+                  <p class="cardtext">
+                    One of my favorite landscapes is in Chile. This is the
+                    Osorno volcano.
+                  </p>
                 </div>
-
-                <h3>Links of interest</h3>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12">
-                            <p>Here are some of the links I visit often</p>
-                            <ul class="list-unstyled">
-                                <li class="interest">This web page is about learning to play jazz drumms: <a href="https://www.nkmdrums.com/jazz/" target="_blank" class="hyperlink">Jazz Drumming</a></li>
-                                <li class="interest">I use this site to know which stars and planets can be seen in the night sky: <a href="https://stellarium-web.org/" target="_blank" class="hyperlink">Star map</a></li>
-                            </ul>
-                            <dl class="row">
-                                <dt class="col-sm-3">Here are my band's social media links:</dt>
-                                <dd class="col-sm-9">
-                                    <p>Instagram: <a href="https://www.instagram.com/ecosdelacumbre/" target="_blank">@ecosdelacumbre</a></p>
-                                    <p>Facebook: <a href="https://www.facebook.com/ecosdelacumbre">Ecos de la Cumbre</a></p>
-                                </dd>
-                            </dl>
-                        </div>
-                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <a id="Projects"><h2>Some of my projects</h2></a>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+              <h3>My rock band Ecos de la Cumbre</h3>
+              <p>
+                Up to some point in my life, my best friend and I wanted to
+                engage in learning how to play an instrument. He chose to play
+                bass guitar and I chose the drums: The perfect combination. This
+                added up to our synchrony in terms of music taste and our way to
+                appreciate music. We talked a lot about the same bands and songs
+                and we could spend hours just discusing what we like about the
+                music we heard. After a while sharing all those point of views
+                we began joking about starting a band becausewe already had the
+                inspiration and we would count as two musicians in the band.
+                That idea sticked in our heads until some time later when I came
+                by a rehearsal house where many amateur bands went to play. Ever
+                since, the idea of starting the band began materializing as we
+                played some covers. A lot after that, we could finally play
+                along effectively and then we decided that it was time to bring
+                other people to play guitar and sing. So we contacted some
+                friends who play the guitar who then joined us and keep jamming
+                with us nowadays. Finally we found a singer who has been with us
+                some short time. The five of us have been playing for a year
+                together and by the time we only play covers but soon we expect
+                to begin writing our own songs. Also, we expect to be playng
+                live as soon as everything comes back to normal.
+              </p>
+              <p>
+                Here you can have a listen to our cover of the song <em></em>
+              </p>
+              <audio controls src="audio/MurallaVerde.mp4"></audio>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+              <h3>PetFun</h3>
+              <p>
+                PetFun is a project made to help dog owners to avoid having
+                their things damaged by their pets, especially when the pets are
+                left home alone. This project was developed algo with three
+                other peers using Python programming language. It uses a camera
+                which is set on when the owner leaves his house and it must be
+                placed anywhere the owner wants to avoid his pet entering into
+                the house. When the camera detects the pet trying to enter a
+                room or somewhere else in the house, the system will generate
+                distracting sounds so that the dog will not go into the room.
+                Here you have an overview of the project:
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/Nk00rjYOesA"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <a id="Contact"><h2>Contact</h2></a>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-9 col-lg-12">
+              <form>
+                <div class="form-row align-items-center">
+                  <div class="form-group">
+                    <label for="name">Your full name:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      name="fullname"
+                      placeholder="Your full name"
+                    />
+                  </div>
                 </div>
-                
-                <h3>Cool pictures</h3>
-                
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            
-                            <div class="card" style="width: 15rem;">
-                                <img class="card-img-top" src="images/ConElPana.JPG" alt="Con mi pana Giraldo" width="200px" height="300px"/>
-                                <div class="card-body">
-                                    <p class="cardtext">
-                                        A picture with my best friend. We be lookin good doe. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="card" style="width: 15rem;">
-                                <img class="card-img-top" src="images/ElSalto.JPG" alt="Saltando de bien alto" width="200px" height="300px"/>
-                                <div class="card-body">
-                                    <p class="cardtext">
-                                        Jumping from a tall cliff from Jamaica.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-8">
-                            <div class="card" style="width: auto;">
-                                <img class="card-img-top" src="images/Osorno.jpg" alt="Volcán Osorno en Chile" width="700px" height="300px"/>
-                                <div class="card-body">
-                                    <p class="cardtext">
-                                        One of my favorite landscapes is in Chile. This is the Osorno volcano.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="form-group">
+                  <label for="email">Your email:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="example@mail.com"
+                  />
                 </div>
-                            
-            </section>
-            <section>
-                <a name="Projects"><h2>Some of my projects</h2></a>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h3>My rock band Ecos de la Cumbre</h3>
-                            <p>Up to some point in my life, my best friend and I wanted to engage in learning how to play an instrument. He chose to play bass guitar and I chose the drums: The perfect combination. This added up to our synchrony in terms of music taste and 
-                                our way to appreciate music. We talked a lot about the same bands and songs and we could spend hours just discusing what we like about the music we heard. After a while sharing all those point of views we began joking about starting a band
-                                becausewe already had the inspiration and we would count as two musicians in the band. That idea sticked in our heads until some time later when I came by a rehearsal house where many amateur bands went to play. Ever since, the idea of starting
-                                the band began materializing as we played some covers. A lot after that, we could finally play along effectively and then we decided that it was time to bring other people to play guitar and sing. So we contacted some friends who play the guitar
-                                who then joined us and keep jamming with us nowadays. Finally we found a singer who has been with us some short time. The five of us have been playing for a year together and by the time we only play covers but soon we expect to begin writing our
-                                own songs. Also, we expect to be playng live as soon as everything comes back to normal.
-                            </p>
-                            <p>Here you can have a listen to our cover of the song <em></em></p>
-                            <audio controls src="audio/MurallaVerde.mp4"></audio>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <h3>PetFun</h3>
-                            <p>PetFun is a project made to help dog owners to avoid having their things damaged by their pets, especially when the pets are left home alone. This project was developed algo with three other peers using Python programming language. It uses a camera
-                                which is set on when the owner leaves his house and it must be placed anywhere the owner wants to avoid his pet entering into the house. When the camera detects the pet trying to enter a room or somewhere else in the house, the system will generate
-                                distracting sounds so that the dog will not go into the room. Here you have an overview of the project:
-                            </p>
-                        
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-sm-12 col-md-8 col-lg-8">
-                            <div class ="embed-responsive embed-responsive-16by9">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Nk00rjYOesA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    
+                <div class="form-group">
+                  <label for="topic">What would you like to talk about?</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="topic"
+                    name="topic"
+                    placeholder="Lets talk"
+                  />
                 </div>
-            
-            </section>
-            <section>
-                <a name="Contact"><h2>Contact</h2></a>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-9 col-lg-12">
-                            <form>
-                                <div class="form-row align-items-center">
-                                    <div class="form-group">
-                                        <label for="name">Your full name:</label>
-                                        <input type="text" class="form-control" id="name" name="fullname" placeholder="Your full name">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="mail">Your email:</laber>
-                                    <input type="text" class="form-control" id="email" name="email" placeholder="example@mail.com">
-                                </div>
-                                <div class="form-group">
-                                    <label for="topic">What would you like to talk about?</label>
-                                    <input type="text" class="form-control" id="topic" name="topic" placeholder="Lets talk">
-                                </div>   
-                                <button type="submit" class="btn btn-dark">Submit</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                    
-            </section>
-
-        </main>
-        <footer class="footer">
-            <p><bold>Contact info </bold></p>
-            <p>Personal mail: d.galindo@uniandes.edu.co</p>
-            <p><a href="https://www.facebook.com/daniel.galindoruiz">My Facebook</a></p>
-            <p><a href="https://www.instagram.com/da_galru/">My Instagram (@da_galru)</a></p>
-            
-        </footer>
-    </body>
+                <button type="submit" class="btn btn-dark">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <!--Corrección del uso a la clase font-weight-bold en vez de las etiquetas b.-->
+      <p class="font-weight-bold">Contact info</p>
+      <p>Personal mail: d.galindo@uniandes.edu.co</p>
+      <p>
+        <a href="https://www.facebook.com/daniel.galindoruiz">My Facebook</a>
+      </p>
+      <p>
+        <a href="https://www.instagram.com/da_galru/"
+          >My Instagram (@da_galru)</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
